@@ -11,7 +11,7 @@ role.init(
       autoIncrement: true
     },
     title: {
-      type: DataTypes.STRING
+      type: DataTypes.varchar(30)
     },
     salary: {
       type: DataTypes.DECIMAL

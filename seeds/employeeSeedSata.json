@@ -1,0 +1,56 @@
+[
+  {
+    "first_name": "Darryl",
+    "last_name": "Brown",
+    "role_id": "12",
+    "manager_id": "1"
+  },
+  {
+  "first_name": "Neil",
+  "last_name": "Shubin",
+  "role_id": "13",
+  "manager_id": "2"
+  },
+  {
+    "first_name": "Richard",
+    "last_name": "Dawkins",
+    "role_id": "14",
+    "manager_id": "1"
+    },
+  {
+    "first_name": "Sam",
+    "last_name": "Harris",
+    "role_id": "15",
+    "manager_id": "1"
+  },
+  {
+    "first_name": "Christopher",
+    "last_name": "Hitchens",
+    "role_id": "16",
+    "manager_id": "3"
+  },
+  {
+    "first_name": "Salman",
+    "last_name": "Rushdie",
+    "role_id": "17",
+    "manager_id": "1"
+  },
+  {
+      "first_name": "Bart",
+      "last_name": "Ehrman",
+      "role_id": "18",
+      "manager_id": "1"
+  },
+  {
+    "first_name": "Joh",
+    "last_name": "Krakauer",
+    "role_id": "19",
+    "manager_id": "1"
+},
+{
+  "first_name": "David",
+  "last_name": "Sedaris",
+  "role_id": "20",
+  "manager_id": "2"
+}
+]

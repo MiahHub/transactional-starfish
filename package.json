@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MiahHub/transactional-starfish/issues"
   },
-  "homepage": "https://github.com/MiahHub/transactional-starfish#readme"
+  "homepage": "https://github.com/MiahHub/transactional-starfish#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }

@@ -1,0 +1,20 @@
+[
+  {
+  "id":"1",
+  "title": "Development",
+  "salary": "85,000.00",
+  "department_id": "1"
+},
+{
+  "id":"2",
+  "title": "Support",
+  "salary": "65,000.00",
+  "department_id": "2"
+},
+{
+  "id":"3",
+  "title": "Quality Assurance",
+  "salary": "45,000.00",
+  "department_id": "2"
+}
+]
