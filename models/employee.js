@@ -11,10 +11,10 @@ employee.init(
       autoIncrement: true
     },
     first_name: {
-      type: DataTypes.VARCHAR(30)
+      type: DataTypes.STRING
     },
     last_name: {
-      type: DataTypes.VARCHAR(30)
+      type: DataTypes.STRING
     },
     role_id:{
       type: DataTypes.INTEGER
