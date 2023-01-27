@@ -8,9 +8,10 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+//use routes
 app.use(routes);
 
-// Force false so data doesn't get dropped on every sync
+// Force false so data doesn't get dropped on every sync and open connection to server
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
