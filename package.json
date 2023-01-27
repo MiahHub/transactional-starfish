@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/MiahHub/transactional-starfish#readme",
   "dependencies": {
+    "api": "^5.0.7",
+    "console.table": "^0.10.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "inquirer": "^8.2.4",

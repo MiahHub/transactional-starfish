@@ -11,7 +11,8 @@ Department.init(
       autoIncrement: true
     },
     name: {
-      type: DataTypes.VARCHJAR(30)
+      type: DataTypes.TEXT,
+      //continually throwing an error with DataTypes.VARCHAR(30)?????
     }
     
   },

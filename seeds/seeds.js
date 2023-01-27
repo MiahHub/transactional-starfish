@@ -4,9 +4,9 @@ const employee = require('../models/employee');
 const department = require('../models/department');
 const role = require('../models/role');
 
-const employeeSeedData = require('./employeeSeedData.json');
-const departmentSeedData = require('./departmentSeedData.json');
-const roleSeedData = require('./roleSeedData.json');
+const employeeSeedData = require('../seeds/employeeSeedSata.json');
+const departmentSeedData = require('../seeds/departmentSeedData.json');
+const roleSeedData = require('../seeds/roleSeedData.json');
 
 // Add the `async` keyword to the function `seedDatabase` to make Asynchronous.
 const seedDatabase = async () => {

@@ -11,7 +11,8 @@ role.init(
       autoIncrement: true
     },
     title: {
-      type: DataTypes.varchar(30)
+      type: DataTypes.TEXT,
+      //continually throwing an error with DataTypes.VARCHAR(30)?????
     },
     salary: {
       type: DataTypes.DECIMAL
