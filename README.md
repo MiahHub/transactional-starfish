@@ -46,8 +46,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ### [Repository on Github](https://github.com/MiahHub/nimbot-yeti)
 
-### [Demo of project]
-
 ## Installation/Usage
 
 Clone the repository onto your local machine and note that the project requires the following dependencies:
@@ -56,8 +54,6 @@ Clone the repository onto your local machine and note that the project requires 
 'npm install express'
 'npm install console.table'
 'npm install inquirer'
-
-## Mockup
 
 ## Questions
 
