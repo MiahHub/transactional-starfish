@@ -70,10 +70,13 @@ const viewRoles = () => {
 };
 
 const viewEmployees = () => {
-  db.query(`SELECT * FROM employee order by 1 desc`, (err, results) => {
-    err ? console.error(err) : console.table(results);
-    init();
-  });
+  db.query(
+    `SELECT employee.id, employee.first_name, employee.last_name, role.title, department.name, role.salary, manager_id FROM department JOIN role ON department.id = role.department_id JOIN employee ON role.id = employee.role_id`,
+    (err, results) => {
+      err ? console.error(err) : console.table(results);
+      init();
+    }
+  );
 };
 
 const addDept = () => {
